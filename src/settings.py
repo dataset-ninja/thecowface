@@ -36,9 +36,9 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
 PAPER: Optional[str] = None
-CITATION_URL: Optional[str] = None
-ORGANIZATION_NAME: Optional[Union[str, List[str]]] = None
-ORGANIZATION_URL: Optional[Union[str, List[str]]] = None
+CITATION_URL: Optional[str] = "https://universe.roboflow.com/face-cow/thecowface"
+ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "Roboflow community"
+ORGANIZATION_URL: Optional[Union[str, List[str]]] = "https://universe.roboflow.com/face-cow"
 TAGS: List[str] = None
 
 ##################################
